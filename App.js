@@ -52,7 +52,7 @@ export default function App() {
       {/* FORMAÇÃO */}
       <View style={styles.card}>
         <View style={styles.titleRow}>
-          <Ionicons name="starhalf" size={22} color="#3b6bd4ff" />
+          <Ionicons name="chips" size={22} color="#3b6bd4ff" />
           <Text style={styles.tituloSecao}>Formação Acadêmica</Text>
         </View>
         <Text>Análise e Desenvolvimento de Sistemas — Senac PE</Text>
@@ -83,7 +83,7 @@ export default function App() {
       {/* CURSOS */}
       <View style={styles.card}>
         <View style={styles.titleRow}>
-          <FontAwesome5 name="progressactivity" size={20} color="#3b6bd4ff" />
+          <FontAwesome5 name="eject" size={20} color="#3b6bd4ff" />
           <Text style={styles.tituloSecao}>Cursos e Certificações</Text>
         </View>
         <Text>• Inglês para Devs — Rocketseat (Atual)</Text>
