@@ -52,7 +52,7 @@ export default function App() {
       {/* FORMAÇÃO */}
       <View style={styles.card}>
         <View style={styles.titleRow}>
-          <Ionicons name="chips" size={22} color="#3b6bd4ff" />
+          <Ionicons name="star" size={22} color="#3b6bd4ff" />
           <Text style={styles.tituloSecao}>Formação Acadêmica</Text>
         </View>
         <Text>Análise e Desenvolvimento de Sistemas — Senac PE</Text>
