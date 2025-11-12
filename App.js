@@ -52,7 +52,7 @@ export default function App() {
       {/* FORMAÇÃO */}
       <View style={styles.card}>
         <View style={styles.titleRow}>
-          <Ionicons name="school" size={22} color="#3b6bd4ff" />
+          <Ionicons name="starhalf" size={22} color="#3b6bd4ff" />
           <Text style={styles.tituloSecao}>Formação Acadêmica</Text>
         </View>
         <Text>Análise e Desenvolvimento de Sistemas — Senac PE</Text>
@@ -62,7 +62,7 @@ export default function App() {
       {/* PROJETOS */}
       <View style={styles.card}>
         <View style={styles.titleRow}>
-          <FontAwesome5 name="lightbulb" size={20} color="#3b6bd4ff" />
+          <FontAwesome5 name="star" size={20} color="#3b6bd4ff" />
           <Text style={styles.tituloSecao}>Projetos Acadêmicos</Text>
         </View>
         <Text>• Luma — Sistema de Pontos (2025)</Text>
@@ -72,18 +72,18 @@ export default function App() {
       {/* HABILIDADES */}
       <View style={styles.card}>
         <View style={styles.titleRow}>
-          <MaterialIcons name="star" size={22} color="#3b6bd4ff" />
+          <MaterialIcons name="bolt" size={22} color="#3b6bd4ff" />
           <Text style={styles.tituloSecao}>Habilidades</Text>
         </View>
-        <Text>✨ Python • MYSQL </Text>
-        <Text>✨ Trabalho em equipe</Text>
-        <Text>✨ Resolução de problemas</Text>
+        <Text> Python • MYSQL </Text>
+        <Text> Trabalho em equipe</Text>
+        <Text> Resolução de problemas</Text>
       </View>
 
       {/* CURSOS */}
       <View style={styles.card}>
         <View style={styles.titleRow}>
-          <FontAwesome5 name="award" size={20} color="#3b6bd4ff" />
+          <FontAwesome5 name="progressactivity" size={20} color="#3b6bd4ff" />
           <Text style={styles.tituloSecao}>Cursos e Certificações</Text>
         </View>
         <Text>• Inglês para Devs — Rocketseat (Atual)</Text>
@@ -124,7 +124,7 @@ const styles = StyleSheet.create({
   },
   subtitulo: {
     fontSize: 14,
-    color: '#7e6be5ff',
+    color: '#3b6bd4ff',
     textAlign: 'center',
     marginBottom: 18,
   },
@@ -156,6 +156,6 @@ const styles = StyleSheet.create({
   },
   texto: {
     marginBottom: 6,
-    color: '#7e6be5ff',
+    color: '#3b6bd4ff',
   }
 });
