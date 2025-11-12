@@ -29,13 +29,14 @@ export default function App() {
 
         <Text style={styles.texto}>📞 (81) 99864-8847</Text>
 
-        <TouchableOpacity onPress={() => virginiaxfernandesLinking.openURL('mailto:@gmail.com')}>
-          <Text style={styles.link}>📧 virginiaxfernandes@gmail.com</Text>
-        </TouchableOpacity>
+      <TouchableOpacity onPress={() => Linking.openURL('mailto:virginiaxfernandes@gmail.com')}>
+  <Text style={styles.link}>📧 virginiaxfernandes@gmail.com</Text>
+</TouchableOpacity>
 
-        <TouchableOpacity onPress={() => Linking.openURL('https://https://br.linkedin.com/in/virg%C3%ADnia-fernandes-59083526b?trk=people-guest_people_search-card')}>
-          <Text style={styles.link}>🔗 LinkedIn — virginia-fernandes</Text>
-        </TouchableOpacity>
+<TouchableOpacity onPress={() => Linking.openURL('https://br.linkedin.com/in/virgínia-fernandes-59083526b')}>
+  <Text style={styles.link}>🔗 LinkedIn — virginia-fernandes</Text>
+</TouchableOpacity>
+
       </View>
 
       {/* EXPERIÊNCIA */}
